@@ -33,7 +33,7 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #fff;
     font-size: 18px;
 }
