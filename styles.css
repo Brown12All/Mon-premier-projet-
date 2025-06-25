@@ -19,6 +19,8 @@ header {
     background-color: #222;
     padding: 1rem;
     justify-content: space-between;
+    diplay: flex;
+    texta-lign: center;
 }
 
 nav ul {
@@ -33,11 +35,15 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: underline;
+    text-decoration: none;
     color: #fff;
     font-size: 18px;
 }
-
+nav ul li a:hover{
+    font-size: 20px;
+    color: orange;
+    transition: 2s;
+}
 /* Home Section */
 .home-section {
     display: flex;
@@ -78,7 +84,9 @@ nav ul li a {
     text-decoration: none;
     border-radius: 5px;
 }
-
+.btn:hover{
+    transform: scale(1.4);
+}
 .image-content img {
     max-width: 500px;
     height: auto;
