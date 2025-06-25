@@ -18,15 +18,12 @@ body {
 header {
     background-color: #222;
     padding: 1rem;
-    justify-content: space-between;
-    diplay: flex;
-    texta-lign: center;
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -42,7 +39,7 @@ nav ul li a {
 nav ul li a:hover{
     font-size: 20px;
     color: orange;
-    transition: 2s;
+    transition: 1s;
 }
 /* Home Section */
 .home-section {
@@ -85,7 +82,7 @@ nav ul li a:hover{
     border-radius: 5px;
 }
 .btn:hover{
-    transform: scale(1.4);
+    transform: scale(1.5);
 }
 .image-content img {
     max-width: 500px;
